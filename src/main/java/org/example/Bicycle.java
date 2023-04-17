@@ -6,9 +6,17 @@ public class Bicycle
     public int wheelsCount;
 
 
+<<<<<<< HEAD
     public void updateTyre()
     {
         System.out.println("Меняем покрышку");
     }
 
+=======
+    /*public void updateTyre()
+    {
+        System.out.println("Меняем покрышку");
+    }
+*/
+>>>>>>> 7168f05 (Initial commit)
 }

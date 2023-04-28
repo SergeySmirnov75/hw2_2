@@ -9,11 +9,8 @@ public class ServiceStation
             System.out.println("Обслуживаем " + car.modelName);
             for (int i = 0; i < car.wheelsCount; i++)
             {
-
                 //car.updateTyre();
-
                 Transport.updateTyre();
-
             }
             car.checkEngine();
         } else if (truck != null)
@@ -21,11 +18,8 @@ public class ServiceStation
             System.out.println("Обслуживаем " + truck.modelName);
             for (int i = 0; i < truck.wheelsCount; i++)
             {
-
                 //truck.updateTyre();
-
                 Transport.updateTyre();
-
             }
             truck.checkEngine();
             truck.checkTrailer();
@@ -34,9 +28,7 @@ public class ServiceStation
             System.out.println("Обслуживаем " + bicycle.modelName);
             for (int i = 0; i < bicycle.wheelsCount; i++)
             {
-
                 //bicycle.updateTyre();
-
                 Transport.updateTyre();
 
             }

@@ -10,6 +10,6 @@ public class Bicycle
     {
         System.out.println("Меняем покрышку");
     }
-*/
+    */
 
 }

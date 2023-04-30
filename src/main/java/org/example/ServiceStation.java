@@ -1,8 +1,7 @@
 package org.example;
 
-public class ServiceStation
-{
-    public void check(Car car, Bicycle bicycle, Truck truck)
+public class ServiceStation {
+    public void check(Car car)
     {
         if (car != null)
         {
@@ -13,7 +12,10 @@ public class ServiceStation
                 Transport.updateTyre();
             }
             car.checkEngine();
-        } else if (truck != null)
+        }
+    }
+        //else if (truck != null)
+        public void check(Truck truck)
         {
             System.out.println("Обслуживаем " + truck.modelName);
             for (int i = 0; i < truck.wheelsCount; i++)
@@ -23,15 +25,15 @@ public class ServiceStation
             }
             truck.checkEngine();
             truck.checkTrailer();
-        } else if (bicycle != null)
+        }
+        //else if (bicycle != null)
+        public void check(Bicycle bicycle)
         {
             System.out.println("Обслуживаем " + bicycle.modelName);
             for (int i = 0; i < bicycle.wheelsCount; i++)
             {
                 //bicycle.updateTyre();
                 Transport.updateTyre();
-
             }
         }
-    }
 }

@@ -1,9 +1,9 @@
 package org.example;
 
-public class Car
+public class Car extends Transport
 {
-    public String modelName;
-    public int wheelsCount;
+    //public String modelName;
+    //public int wheelsCount;
 
 /*
     public void updateTyre()

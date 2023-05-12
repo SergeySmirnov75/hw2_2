@@ -11,8 +11,8 @@ public class Transport implements TransportUpdate
 */
 public class Transport
 {
-    public String modelName;
-    public int wheelsCount;
+    private String modelName;
+    private int wheelsCount;
 
     public static void updateTyre()
     {

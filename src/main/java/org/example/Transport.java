@@ -9,10 +9,15 @@ public class Transport implements TransportUpdate
         System.out.println("Меняем покрышку");
     }
 */
-public class Transport extends Transport_superClass
+public class Transport
 {
     public String modelName;
     public int wheelsCount;
+
+    public static void updateTyre()
+    {
+        System.out.println("Меняем покрышку");
+    }
 
     public String getModelName() 
     {

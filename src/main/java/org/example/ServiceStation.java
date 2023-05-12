@@ -1,6 +1,7 @@
 package org.example;
 
-public class ServiceStation {
+public class ServiceStation extends Transport
+{
     public void check(Car car)
     {
         if (car != null)
@@ -37,3 +38,4 @@ public class ServiceStation {
             }
         }
 }
+

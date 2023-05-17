@@ -1,19 +1,17 @@
-package org.example;
-
 public class Car extends Transport
 {
-    //public String modelName;
-    //public int wheelsCount;
-
-/*
     public void updateTyre()
     {
-        System.out.println("Меняем покрышку");
+        System.out.println("Меняем покрышку автомобилю");
     }
-*/
 
     public void checkEngine()
     {
-        System.out.println("Проверяем двигатель");
+        System.out.println("Проверяем двигатель автомобилю");
+    }
+
+    public Car(String modelName, int wheelsCount)
+    {
+        super(modelName, wheelsCount);
     }
 }

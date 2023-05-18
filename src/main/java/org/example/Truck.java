@@ -1,9 +1,6 @@
 public class Truck extends Transport
 {
-    public void updateTyre()
-    {
-        System.out.println("Меняем покрышку грузовику");
-    }
+
 
     public void checkEngine()
     {
@@ -19,4 +16,19 @@ public class Truck extends Transport
     {
         super(modelName, wheelsCount);
     }
+
+    public void check()
+    {
+        if (this != null)
+        {
+            //System.out.println("Обслуживаем " + this.getModelName());
+            for (int i = 0; i < this.getWheelsCount(); i++)
+            {
+                this.updateTyre();
+            }
+            this.checkEngine();
+            this.checkTrailer();
+        }
+    }
+
 }

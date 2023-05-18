@@ -1,5 +1,6 @@
 public class ServiceStation
 {
+/*
     public void check(Car car)
     {
         if (car != null)
@@ -38,4 +39,12 @@ public class ServiceStation
             }
         }
     }
+*/
+
+    public void check (Transport transport)
+    {
+        System.out.println("Обслуживаем " + transport.getModelName());
+        transport.check();
+    }
+
 }
